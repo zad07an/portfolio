@@ -65,13 +65,14 @@
   align-items: center;
   font-size: 20px;
   font-weight: 400;
-  color: #fafafa;
+  color: #efefef;
   transition: all 0.3s ease-in-out;
 }
 
 .active {
   border-bottom: 2px solid red;
   font-weight: bold;
+  color: #fafafa;
 }
   
 .nav-bar-button {

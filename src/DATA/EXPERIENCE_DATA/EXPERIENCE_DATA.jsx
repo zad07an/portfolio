@@ -25,7 +25,8 @@ export const ExperienceData = [
   {
     id: 4,
     title: 'Tic Tac Toe With Two Modes of Game',
-    text: 'Mega Mode (25 squares) and Normal Mode (9 squares). Voluptatum impedit repudiandae adipisci minus maiores harum autem voluptate ratione laudantium distinctio quia excepturi soluta amet odit aperiam quidem, repellendus similique maxime!',
+    text: `Mega Mode (25 squares) and Normal Mode (9 squares). Voluptatum impedit repudiandae adipisci minus maiores harum autem voluptate ratione laudantium distinctio quia excepturi soluta amet odit aperiam quidem, repellendus similique maxime!`,
+    url: 'https://sprightly-daifuku-0298d3.netlify.app',
     img: TicTacToe
   }
 ]

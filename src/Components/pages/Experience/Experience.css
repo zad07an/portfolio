@@ -51,7 +51,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 40px;
   padding: 60px 0;
 }

@@ -24,6 +24,7 @@ export default function Header({scrollToContact, contact, homeTop, scrollToHomeT
 
 
   click ? document.body.style.overflowY = 'hidden' : document.body.style.overflowY = 'auto'
+  
   return (
     <div ref={homeTop} className={`header ${small ? "small" : ""}`} style={click ? {background: '#0C0457'} : null}>
       <div className='nav-bar'>

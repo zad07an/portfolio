@@ -1,45 +1,55 @@
 .experienceBox-container {
-  width: 90%;
-  height: auto;
+  width: 600px;
+  min-height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 50px;
+  position: relative;
   padding: 40px 0;
   background: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.286);
   border-radius: 25px;
   transition: background 0.3s ease-in-out;
+  overflow: hidden;
 }
 
 .experienceBox-title-box {
-  width: 90%;
+  width: 100%;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px 0;
+  position: absolute;
+  top: 0;
+  background: #0C0457;
 }
 
 .experienceBox-title {
-  font-size: 35px;
-  font-weight: 400;
-  color: #5562FE;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fafafa;
 }
 
 .experienceBox-text-box {
   width: 90%;
   display: flex;
   justify-content: center;
+  padding-top: 60px;
 }
 
 .experienceBox-text {
   font-size: 18px;
 }
 
+.experienceBox-link {
+  text-decoration: underline;
+  color: #2196f3;
+}
+
 .experienceBox-img-box {
-  width: 600px;
+  width: 500px;
   min-height: auto;
   /* padding: 60px 0px 0px 0px; */
   display: flex;

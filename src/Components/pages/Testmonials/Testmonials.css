@@ -40,6 +40,6 @@
 
 .testmonials-slide-container {
   width: 100%;
-  min-height: 900px;
-  padding-top: 60px;
+  min-height: auto;
+  padding: 60px 0;
 }
