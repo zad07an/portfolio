@@ -1,0 +1,169 @@
+.footer-container {
+  width: 100%;
+  min-height: auto;
+  padding: 40px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background: #0C0457;
+  z-index: 999;
+}
+
+.footer-title-box {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-title-box > h3 {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fafafa;
+}
+
+.footer-title-box > span {
+  font-size: 16px;
+  color: #fafafa;
+}
+
+.footer-main-boxes {
+  width: 90%;
+  min-height: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-right-box {
+  width: 60%;
+  height: 100%;
+  padding: 20px;
+}
+
+.footer-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inp-box {
+  min-width: 100%;
+  min-height: auto;
+  padding: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-message-box {
+  width: 100px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes inpMsgOn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.error-span {
+  color: red;
+  font-size: 18px;
+  animation: inpMsgOn 0.3s ease;
+}
+
+.done-span {
+  color: greenyellow;
+  font-size: 18px;
+  animation: inpMsgOn 0.3s ease;
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  background: #ebebeb;
+  border: none;
+  outline: 0;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.footer-contact-message-input {
+  height: 150px;
+  resize: none;
+}
+
+.footer-button-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-contact-submit-button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: goldenrod;
+  color: #fafafa;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.footer-contact-submit-button:active {
+  transform: scale(0.97);
+}
+
+.footer-contact-submit-button-disabled {
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: gray;
+  transition: 0.3s;
+}
+
+.footer-text {
+  font-size: 18px;
+  color: #fafafa;
+}
+
+.footer-copyright-box {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #fafafa54;
+}
+
+.footer-copyright {
+  font-size: 20px;
+  color: #fafafa;
+}
+

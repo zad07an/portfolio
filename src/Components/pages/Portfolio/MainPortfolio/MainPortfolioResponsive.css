@@ -1,0 +1,40 @@
+@media screen and (max-width: 1640px) {
+  .main-portfolio-container {
+    width: 100%;
+    padding-top: 120px;
+  }
+
+  .main-portfolio-about-box {
+    width: 85%;
+    padding: 0 25px 40px;
+  }
+
+  .main-portfolio-skill-container {
+    width: 85%;
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main-portfolio-container {
+    width: 100%;
+  }
+
+  .main-portfolio-skill-container {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .main-portfolio-container {
+    width: 100%;
+  }
+
+  .main-portfolio-about-box {
+    padding-top: 0;
+  }
+
+  .main-portfolio-skill-container {
+    padding-top: 0;
+  }
+}

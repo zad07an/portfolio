@@ -1,0 +1,111 @@
+@media screen and (max-width: 840px) {
+  .experienceBox-container {
+    width: 90%;
+    min-height: auto;
+    gap: 40px;
+    padding: 40px 0;
+  }
+
+  .experienceBox-title-box {
+    height: auto;
+  }
+
+  .experienceBox-title {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  .experienceBox-text {
+    font-size: 18px;
+  }
+
+  .experienceBox-img-box {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .experienceBox-title {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  .experienceBox-text {
+    font-size: 17px;
+  }
+
+  .experienceBox-img-box {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .experienceBox-container {
+    gap: 40px;
+    padding: 20px 0 40px;
+  }
+
+  .experienceBox-title {
+    font-size: 28px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .experienceBox-text {
+    font-size: 16px;
+  }
+
+  .experienceBox-img-box {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .experienceBox-container {
+    gap: 40px;
+    padding: 20px 0 40px;
+  }
+
+  .experienceBox-title {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  .experienceBox-text {
+    font-size: 16px;
+  }
+
+  .experienceBox-img-box {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .experienceBox-container {
+    gap: 40px;
+    padding: 20px 0 40px;
+  }
+
+  .experienceBox-title-box {
+    height: 40px;
+  }
+
+  .experienceBox-title {
+    font-size: 23px;
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  .experienceBox-text {
+    font-size: 14px;
+  }
+
+  .experienceBox-img-box {
+    width: 300px;
+  }
+}

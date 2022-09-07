@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 50px;
+  background: #0C0457;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: linear-gradient(to left bottom, rgba(93, 0, 255, 0.233), #fafafa);
+}

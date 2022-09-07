@@ -1,0 +1,39 @@
+
+
+.submit-modal-container {
+  width: 100%;
+  min-height: 1200px;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+.submit-modal-box {
+  width: 800px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.submit-modal-success-icon {
+  font-size: 50px;
+  color: green;
+}
+
+.submit-modal-success {
+  font-size: 25px;
+  font-weight: bold;
+}

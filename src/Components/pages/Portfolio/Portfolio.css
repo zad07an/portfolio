@@ -1,0 +1,256 @@
+.portfolio-container {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 80px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  overflow: hidden;
+  animation: portfolioBackground 15s ease infinite;
+  transition: background 0.3s ease-in-out;
+}
+
+.dark {
+  background: linear-gradient(-45deg, #653223, #771F41, #12556E, #147760);
+  background-size: 400% 400%;
+  animation: portfolioBackground 15s ease infinite;
+  overflow: hidden;
+  transition: background 0.3s ease-in-out;
+}
+
+.portfolio-content {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.portfolio-box {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-welcome-box {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.portfolio-hello-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.portfolio-hi-text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 35px;
+  color: #fff;
+}
+
+.portfolio-highlight-text {
+  background: #5562FE;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.portfolio-name {
+  font-size: 60px;
+  color: #fff;
+}
+
+.portfolio-desc {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-desc-text {
+  font-size: 18px;
+  color: rgb(208, 208, 208);
+}
+
+.portfolio-download-button {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background: goldenrod;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.portfolio-download-button:hover {
+  box-shadow: 0 0 15px gold;
+}
+.portfolio-download-button:active {
+  scale: 0.97;
+}
+
+.portfolio-download-icon {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.portfolio-media-box-container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.portfolio-media-follow-me-text {
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fafafa;
+}
+
+.portfolio-social-media-box {
+  width: 70%;
+  height: 100px;
+  top: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  background: rgba(255, 255, 255, 0.275);
+  border: 1px solid rgba(255, 255, 255, 0.254);
+  border-radius: 25px;
+  backdrop-filter: blur(5px);
+}
+
+.portfolio-social-media-box.active {
+  width: 60px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  position: fixed;
+  top: 300px;
+  left: 0;
+  padding: 20px 0;
+  background: rgba(255, 255, 255, 0.275);
+  border: 1px solid rgba(255, 255, 255, 0.254);
+  backdrop-filter: blur(5px);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-left: none;
+  animation: socialBoxActive 0.5s ease;
+  z-index: 100;
+}
+
+@keyframes socialBoxActive {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0;
+  }
+}
+
+.portfolio-instagram-icon {
+  font-size: 50px;
+  color: #e73c7e;
+  transition: all 0.2s ease;
+}
+
+.portfolio-instagram-icon:hover {
+  color: #fff;
+}
+
+.portfolio-facebook-icon {
+  font-size: 50px;
+  color: #5562FE;
+  transition: all 0.2s ease;
+}
+
+.portfolio-facebook-icon:hover {
+  color: #fff;
+}
+
+.portfolio-linkedin-icon {
+  font-size: 50px;
+  color: #23a6d5;
+  transition: all 0.2s ease;
+}
+
+.portfolio-linkedin-icon:hover {
+  color: #fff;
+}
+
+.portfolio-github-icon {
+  font-size: 50px;
+  color: #000;
+  transition: all 0.2s ease;
+}
+
+.portfolio-github-icon:hover {
+  color: #fff;
+}
+
+.portfolio-telegram-icon {
+  font-size: 50px;
+  color: #2196f3;
+  transition: all 0.2s ease;
+}
+
+.portfolio-telegram-icon:hover {
+  color: #fff;
+}
+
+
+.portfolio-image-box {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.portfolio-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.isActive {
+  font-size: 30px;
+}
+
+@keyframes portfolioBackground {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}

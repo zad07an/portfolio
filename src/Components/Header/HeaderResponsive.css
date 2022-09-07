@@ -1,0 +1,213 @@
+
+
+/* !MEDIA QUERY FOR 1440PX */
+
+@media screen and (max-width: 1440px) {
+
+  .header {
+    width: 100%;
+  }
+
+  .nav-bar {
+    width: 90%;
+    height: 100%;
+  }
+
+  .nav-items {
+    gap: 30px;
+  }
+
+  .nav-links {
+    justify-content: center;
+  }
+
+  .nav-list {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link {
+    font-size: 18px;
+    color: #fafafa;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+/* !MEDIA QUERY FOR 1250PX */
+
+@media screen and (max-width: 1250px) {
+  .logo {
+    font-size: 40px;
+  }
+
+  .nav-list {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link {
+    font-size: 18px;
+    color: #fafafa;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .nav-bar-button {
+    width: 130px;
+    height: 35px;
+  }
+}
+
+
+/* TODO Media query for mobiles */
+/* !MEDIA QUERY FOR 1024PX */
+
+@media screen and (max-width: 1024px) {
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-items {
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0;
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    gap: 0;
+    padding-top: 30px;
+    background: #0C0457;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .nav-links {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0;
+  }
+
+  .nav-items.active {
+    left: 0;
+  }
+
+  .nav-list {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-list:hover {
+    background: rgba(255, 255, 255, 0.119);
+  }
+
+  .nav-bar-button {
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+  }
+
+  .link {
+    width: 100%;
+    font-size: 24px;
+    color: #fafafa;
+  }
+}
+
+
+/* !MEDIA QUERY FOR  912PX*/
+
+@media screen and (max-width: 912px) {
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+
+
+  .nav-list:hover {
+    background: rgba(255, 255, 255, 0.119);
+  }
+
+  .nav-bar-button {
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+  }
+
+  .link {
+    font-size: 22px;
+    color: #fafafa;
+  }
+}
+
+
+/* !MEDIA QUERY FOR 820PX */
+
+@media screen and (max-width: 820px) {
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-list:hover {
+    background: rgba(255, 255, 255, 0.119);
+  }
+
+  .nav-bar-button {
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+  }
+
+  .link {
+    font-size: 22px;
+    color: #fafafa;
+  }
+}
+
+
+/* !MEDIA QUERY FOR 768PX */
+
+@media screen and (max-width: 768px) {
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-list:hover {
+    background: rgba(255, 255, 255, 0.119);
+  }
+
+  .nav-bar-button {
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+  }
+
+  .link {
+    font-size: 22px;
+    color: #fafafa;
+  }
+  
+}
