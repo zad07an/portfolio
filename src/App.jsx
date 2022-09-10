@@ -4,17 +4,16 @@ import Home from "./Components/pages/Home/Home"
 import Portfolio from "./Components/pages/Portfolio/Portfolio"
 import Experience from "./Components/pages/Experience/Experience"
 import Testmonials from "./Components/pages/Testmonials/Testmonials"
-
 import Error from './Components/pages/Error/Error'
 import { AnimatePresence } from 'framer-motion'
 import ScrollToTop from './ScrollToTop'
-import { useRef, useState } from 'react'
+import { useState } from 'react'
 import { QuestionsData } from './DATA/QUESTIONS_DATA/QUESTIONS_DATA'
-import './App.css'
 import ChooseQuestions from './Components/Questions/ChooseQuestions/ChooseQuestions'
 import { HtmlQuestionsData } from './DATA/QUESTIONS_DATA/QUESTIONS_DATA_HTML'
 import HtmlQuestionsContainer from './Components/Questions/HtmlQuestionsContainer.jsx/HtmlQuestionsContainer/HtmlQuestionsContainer'
 import QuestionsContainer from './Components/Questions/CssQuestions/CssQuestionsContainer/QuestionsContainer'
+import './App.css'
 
 function App() {
 
@@ -72,10 +71,10 @@ function App() {
               <Route path="/experience" element={<Experience switcher={switcher}/>} />
               <Route path="/portfolio" element={<Portfolio switcher={switcher}/>} />
               <Route path="/testmonials" element={<Testmonials switcher={switcher}/>} />
-              <Route path='/questions' element={<ChooseQuestions/>}/>
-              <Route path='/questions/css' element={<QuestionsContainer score={score} questions={questions} onAnswer={onAnswer} currentQuestion={currentQuestion} showScore={showScore}/>} />
+              <Route path='/questions' element={<ChooseQuestions switcher={switcher}/>}/>
+              <Route path='/questions/css' element={<QuestionsContainer score={score} questions={questions} onAnswer={onAnswer} currentQuestion={currentQuestion} showScore={showScore} switcher={switcher}/>} />
               <Route path='/questions/html' element={<HtmlQuestionsContainer
-              onAnswerHtml={onAnswerHtml} htmlScore={htmlScore} htmlQuestions={htmlQuestions} currentHtmlQuestion={currentHtmlQuestion} showHtmlScore={showHtmlScore} />} />
+              onAnswerHtml={onAnswerHtml} htmlScore={htmlScore} htmlQuestions={htmlQuestions} currentHtmlQuestion={currentHtmlQuestion} showHtmlScore={showHtmlScore} switcher={switcher} />} />
               <Route path='*' element={<Error switcher={switcher}/>} />
             </Route>
           </Routes>

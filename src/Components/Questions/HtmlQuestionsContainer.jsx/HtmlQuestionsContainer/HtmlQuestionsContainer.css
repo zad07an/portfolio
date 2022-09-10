@@ -9,6 +9,7 @@
   flex-direction: column;
   position: relative;
   background: linear-gradient(-45deg, #973ce7, #23a6d5);
+  transition: background 0.3s ease-in-out;
 }
 
 .html-questions-container-title-box {
@@ -50,6 +51,7 @@
   background: #fafafa;
   padding: 40px 0;
   border-radius: 10px;
+  transition: background 0.3s ease-in-out;
 }
 
 .html-score-text-box {
@@ -78,6 +80,14 @@
   font-size: 30px;
   padding: 10px 0;
   border-bottom: 2px solid red;
+  transition: 0.3s ease-in-out;
+}
+
+.html-answers-title {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  transition: 0.3s ease-in-out;
 }
 
 .html-answers-container {
@@ -125,6 +135,7 @@
 
 .html-question {
   padding-left: 50px;
+  transition: 0.3s ease-in-out;
 }
 
 .html-answer-id {
@@ -138,10 +149,12 @@
   font-size: 24px;
   padding: 10px 0;
   border-bottom: 2px solid green;
+  transition: 0.3s ease-in-out;
 }
 
 .html-more-info-text {
   padding-left: 50px;
+  transition: 0.3s ease-in-out;
 }
 
 .html-answer-icon-check {
