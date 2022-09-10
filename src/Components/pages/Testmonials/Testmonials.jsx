@@ -15,7 +15,8 @@ export default function Testmonials({switcher}) {
     style = {switcher ? {background: 'linear-gradient(-45deg, #771F41, #12556E)'} : {background: 'linear-gradient(-45deg, #e73c7e, #23a6d5)'}}
     >
       <div className="testmonials-title-box">
-        <h1 className='testmonials-title'>Testmonials</h1>
+        <h3 className='testmonials-title'>Testmonials</h3>
+        <h3 className='testmonials-info'>Client Reviews</h3>
       </div>
       <div className="testmonials-slide-container">
         <Slider slides={SliderData} switcher={switcher}/>

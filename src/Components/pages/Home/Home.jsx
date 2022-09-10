@@ -23,8 +23,8 @@ export default function Home({switcher}) {
               animate = {{opacity: 1, x: 0, transition: {delay: 0.2}}}
             >{'<Front-End Developer From Armenia/>'}</motion.span>
             <motion.h1 className='home-title'
-              initial = {{opacity: 0, x: -500}}
-              animate = {{opacity: 1, x: 0, transition: {delay: 0.4}}}
+            initial = {{opacity: 0, x: -500}}
+            animate = {{opacity: 1, x: 0, transition: {delay: 0.4}}}
             >Zadoyan</motion.h1>
             <motion.div className="home-button-box"
               initial = {{opacity: 0, y: 200}}

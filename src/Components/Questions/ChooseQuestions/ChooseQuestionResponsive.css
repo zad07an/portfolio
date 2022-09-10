@@ -1,0 +1,7 @@
+@media screen and (max-width: 550px) {
+  .choose-questions-choose-box {
+    min-height: 200px;
+    flex-direction: column;
+    gap: 30px;
+  }
+}

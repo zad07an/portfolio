@@ -1,0 +1,74 @@
+.choose-questions-container {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 200px;
+  position: relative;
+  background: linear-gradient(-45deg, #973ce7, #23a6d5);
+}
+
+.choose-questions-container-title-box {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose-questions-container-title {
+  font-size: 60px;
+  font-weight: 400;
+  color: #fafafa;
+}
+
+.choose-questions-choose-box {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.css-box {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  background: #fafafa;
+  color: #5562FE;
+  border-radius: 10px;
+  transition: 0.1s ease-in-out;
+}
+
+.html-box {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  background: #fff;
+  color: #5562FE;
+  border-radius: 10px;
+  transition: 0.1s ease-in-out;
+}
+
+.html-box:hover,
+.css-box:hover {
+  background: #ebebeb;
+}
+
+.html-box:active,
+.css-box:active {
+  transform: scale(0.98);
+}

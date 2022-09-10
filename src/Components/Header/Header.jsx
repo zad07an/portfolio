@@ -43,6 +43,9 @@ export default function Header({scrollToContact, contact, homeTop, scrollToHomeT
             <li className='nav-list'>
               <NavLink to='/testmonials' className='link'>Testmonials</NavLink>
             </li>
+            <li className='nav-list'>
+              <NavLink to='/questions' className='link'>Questions</NavLink>
+            </li>
           </ul>
             <div className="theme-switcher-box">
               <button className='theme-switcher' onClick={themeSwitcher}>{ switcher ? <RiSunFoggyLine className='icon-sun'/> : <RiMoonFoggyLine className='icon-moon'/> }</button>

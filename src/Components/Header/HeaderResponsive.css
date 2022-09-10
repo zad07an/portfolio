@@ -45,6 +45,10 @@
     font-size: 40px;
   }
 
+  .nav-items {
+    gap: 20px;
+  }
+
   .nav-list {
     width: 130px;
     height: 40px;
@@ -66,6 +70,19 @@
   }
 }
 
+@media screen and (max-width: 1150px) {
+  .nav-items {
+    gap: 20px;
+  }
+
+  .nav-list {
+    width: 110px;
+  }
+
+  .link {
+    font-size: 16px;
+  }
+}
 
 /* TODO Media query for mobiles */
 /* !MEDIA QUERY FOR 1024PX */
